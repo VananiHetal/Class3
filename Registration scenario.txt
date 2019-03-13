@@ -1,0 +1,19 @@
+Registration Scenario
+
+Feature : user want to register on the www.abconline.com
+
+Scenario : user should be able to register on the www.abconline.com 
+           Given user is on the home page www.abconline.com
+           When user click on the register button
+           And select female 
+           And enter first name Sally
+           And enter last name Peter
+           And select date of birth 10.10.1940
+           And enter email address abcd@yahoo.com
+           And enter password silvee*
+           And enter confirmed password silvee*
+           And click on REGISTER button
+           Then user should be able to resgister sucessfully
+           And see welcome message 
+     
+
